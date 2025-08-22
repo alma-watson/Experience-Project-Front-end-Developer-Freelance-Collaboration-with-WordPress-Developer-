@@ -24,7 +24,7 @@ Final goal: static layout → WordPress site (by another developer).
 
 ## 🖼 Preview
 
-![Preview](/assets/preview.png)
+![Preview](assets/preview.png)
 
 ## ⚙️ Tech Stack
 
