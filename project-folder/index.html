@@ -1,0 +1,389 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="robots" content="noindex, nofollow">
+      <meta name="description"
+         content="Page layout built from a Figma design. Responsive, clean, with modal and JS interaction.">
+      <meta name="author" content="Alma Watson">  
+      <meta property="og:title" content="Folder Project – responsive landing page">
+      <meta property="og:description"
+         content="HTML/CSS/JS landing page based on Figma. Includes modal popup and adaptive layout.">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://folder-project.netlify.app/">
+
+      <title>Folder Project – responsive  page</title>
+      
+      
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:opsz,wght@14..32,100..900&display=swap"
+         rel="stylesheet">
+         <!-- style -->
+
+      <link rel="stylesheet" href="css/styles.css">
+
+   </head>
+   <body>
+
+      <div id="preloader">
+         <div class="spinner"></div>
+      </div>
+
+      <header class="header">
+         <div class="header-top">
+            <div class="header_left">
+               <button class="btn_menu" aria-label="Open menu">
+      
+                  <svg width="32" height="24" class="icon">
+                     <use href="img/sprite.svg#burger_icon"></use>
+                  </svg>
+               </button>
+      
+            </div>
+      
+            <div class="menu_container">
+               <button class="close_menu" aria-label="Close menu">
+                  <svg width="26" height="26" class="icon">
+                     <use href="img/sprite.svg#close_menu"></use>
+                  </svg>
+      
+               </button>
+      
+               <nav class="main_nav">
+                  <ul class="main_nav_list">
+      
+                     <li class="main_nav_item">
+                        <a href="index.html" class="main_nav_link">Home</a>
+                     </li>
+                     <!-- <li class="main_nav_item">
+                           <a href="#" class="main_nav_link">Lunaria</a>
+                        </li> -->
+      
+                     <!-- <li class="main_nav_item">
+                           <a href="#" class="main_nav_link">Detail</a>
+                        </li> -->
+      
+                     <li class="main_nav_item">
+                        <a href="architecture.html" class="main_nav_link">Architecture</a>
+                     </li>
+      
+                     <!-- <li class="main_nav_item">
+                           <a href="#" class="main_nav_link">Light</a>
+                        </li> -->
+      
+                     <li class="main_nav_item">
+                        <a href="shop_index.html" class="main_nav_link">Shop</a>
+                     </li>
+      
+                     <!-- <li class="main_nav_item">
+                           <a href="#" class="main_nav_link">Inspirations</a>
+                        </li> -->
+      
+                     <li class="main_nav_item">
+                        <a href="events.html" class="main_nav_link">Events</a>
+                     </li>
+      
+                     <!-- <li class="main_nav_item">
+                           <a href="#" class="main_nav_link">Future</a>
+                        </li> -->
+                  </ul>
+               </nav>
+      
+               <div class="social-links">
+                  <a href="#">
+                     <svg width="26" height="46" class="icon">
+                        <use href="img/sprite.svg#icon_facebok"></use>
+                     </svg>
+                  </a>
+      
+                  <a href="#">
+                     <svg width="46" height="46" class="icon">
+                        <use href="img/sprite.svg#icon_inst"></use>
+                     </svg>
+                  </a>
+      
+                  <a href="#">
+                     <svg width="46" height="46" class="icon">
+                        <use href="img/sprite.svg#icon_linkedin"></use>
+                     </svg>
+                  </a>
+               </div>
+      
+            </div>
+      
+      
+      
+            <div class="search_container">
+               <button class="search_toggle" aria-label="Open search">
+                  <svg width="20" height="20" class="icon">
+                     <use href="img/sprite.svg#search_toggle"></use>
+                  </svg>
+               </button>
+               <form class="search_form" action="/search" method="GET">
+                  <input type="text" name="query" placeholder="szukaj">
+               </form>
+      
+      
+            </div>
+         </div>
+      
+      
+         <div class="header_logo">
+            <a href="index.html">
+               Lunaria
+            </a>
+            <p>lorem Ipsum dolor sit amet</p>
+         </div>
+      
+      </header>
+
+      <main>
+
+         <section class="banner-menu">
+         
+            <div class="banner-grid">
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/detail/datail-main.jpg" width="400" height="400" alt="">
+               
+                  <figcaption>Detail</figcaption>
+                  </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/interior/interior-main.avif" width="400" height="400" alt="">
+               
+                  <figcaption>Interiors</figcaption>
+               </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/architecture/architecture-main.avif" width="400" height="400" alt="">
+                  
+                  <figcaption>Architecture</figcaption>
+               </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure class="banner_item__bg">
+                     <img src="img/light/light-main.avif" width="400" height="400" alt="">
+                  
+                  <figcaption>Light</figcaption>
+               </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/shop-main.avif" width="400" height="400" alt="">
+                  
+                  <figcaption>Shop</figcaption>
+               </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/lunaria.avif" width="400" height="400" alt="">
+                  
+                  <figcaption>Lunaria</figcaption>
+               </figure>
+               </a>
+         
+            
+               </div>
+            
+            
+               </section>
+
+
+               <section class="event">
+
+                  <h2>Events</h2>
+                  
+                  <div class="container_events">
+                     <article class="event_item">
+                     <a href="#">
+                        <img src="img/events/aranxa-esteve-S5DEUg2yUVU-unsplash.avif" width="400" height="400" alt="">
+                     </a>
+                     
+                        <p>
+                        <span class="event-date">2025-04-07</span> <br>
+                        Art installations & design collaborations <br>
+
+                           <span class="event-title">“The detail that creates spaces”</span><br>
+                     
+                           lorem ipsum dolor <time datetime="2025-05-28">28.05.2025 r.</time>
+                        </p>
+                  
+                     </article>
+
+                        <article class="event_item">
+                        <a href="#">
+                           <img src="img/events/jakob-dalbjorn-cuKJre3nyYc-unsplash.avif" width="400" height="400" alt="">
+                        </a>
+                        
+                           <p>
+                              <span class="event-date">2025-04-07</span><br>
+                              Art installations & design collaborations<br>
+
+                              <span class="event-title">“The detail that creates spaces”</span><br>
+                        
+                              lorem ipsum dolor <time datetime="2025-05-28">28.05.2025 r.</time>
+                           </p>
+                        
+                           </article>
+
+                           <article class="event_item">
+                           <a href="#">
+                              <img src="img/events/md-duran-rE9vgD_TXgM-unsplash.avif" width="400" height="400" alt="">
+                           </a>
+                           
+                              <p>
+                              <span class="event-date">2025-04-07</span><br>
+
+                              Art installations & design collaborations<br>
+
+                              <span class="event-title">“The detail that creates spaces”</span><br>
+                        
+                              lorem ipsum dolor <time datetime="2025-05-28">28.05.2025 r.</time>
+                           </p>
+                        
+                           </article>
+                  
+               </div>
+               
+               
+
+            </section>
+
+            <section class="partners">
+               <h2 class="section-title">Partners</h2>
+               <div class="partners_wrapper" id="slider">
+               
+                  <figure class="partner_logo">
+                     <img src="img/partners/round-icons--X2ZpcBkscw-unsplash.png" width="400" height="400" alt="Partner 1">
+                     <figcaption class="partner_name">Flowkit</figcaption>
+                  </figure>
+               
+                  <figure class="partner_logo">
+                     <img src="img/partners/round-icons-Dj99Q2OVQMM-unsplash.png" width="400" height="400" alt="Partner 2">
+                     <figcaption class="partner_name">Designio</figcaption>
+                  </figure>
+
+                  <figure class="partner_logo">
+                     <img src="img/partners/round-icons-fVG5FGg5t7w-unsplash.png" width="400" height="400" alt="Partner 3">
+                     <figcaption class="partner_name">Craftix
+                     </figcaption>
+                  </figure>
+                  
+                  <figure class="partner_logo">
+                     <img src="img/partners/round-icons-LDmktqSDKpo-unsplash.png" width="400" height="400" alt="Partner 4">
+                     <figcaption class="partner_name">Loopline</figcaption>
+                  </figure>
+
+                  <figure class="partner_logo">
+                     <img src="img/partners/round-icons-nlgD5LWZ0i8-unsplash.png" width="400" height="400" alt="Partner 5">
+                     <figcaption class="partner_name">Pixelate</figcaption>
+                  </figure>
+               
+
+
+            
+                  </div>
+
+                  <div class="slider-dots" id="dots">
+                     <!-- js -->  
+                  </div>
+
+   <p>
+      Nam convallis lacus at nisi scelerisque pulvinar. Vivamus eleifend, mauris sit amet pretium ultricies, ante ex ultrices
+      lectus, a volutpat mi velit ut nisi. Nam fringilla, ligula eget pharetra sollicitudin, elit augue euismod nisi, blandit
+      tristique sapien quam ac eros. Donec tristique cursus tempus. Aliquam tincidunt tempus enim, vel laoreet velit placerat
+      vel. Donec vel blandit augue. Praesent vel facilisis erat. Praesent dignissim finibus odio malesuada iaculis. Sed
+      sodales, eros eu placerat pulvinar, mi quam commodo nunc, in pharetra urna urna non diam. Quisque mollis porttitor
+      vulputate.
+   </p>
+            </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer-contact">
+            <h2>Contact</h2>
+      
+            <form class="contact-form" action="#" method="POST">
+      <div class="box">
+         <div class="form-row">
+            <div class="form-group name">
+               <label for="name">Name and surname</label>
+               <input type="text" id="name" name="name" placeholder="your name and surname" required>
+            </div>
+         
+            <div class="form-group email">
+               <label for="email">email</label>
+               <input type="email" id="email" name="email" placeholder="your email adress" required>
+            </div>
+         </div>
+         
+         <div class="message">
+            <label for="message">Message content</label>
+            <textarea id="message" name="message" rows="5" placeholder="enter content" required></textarea>
+         </div>
+      </div>
+      
+               <div class=" checkbox-group">
+                  <input type="checkbox" id="consent" name="consent" required>
+                  <label for="consent">
+                     Nam convallis lacus at nisi scelerisque pulvinar. Vivamus eleifend, mauris sit amet pretium ultricies, ante ex ultrices
+                     lectus, a volutpat mi velit ut nisi. Nam fringilla, ligula eget pharetra sollicitudin, elit augue euismod nisi, blandit
+                     tristique sapien quam ac eros. Donec tristique cursus tempus. Aliquam tincidunt tempus enim, vel laoreet velit placerat
+                     vel. Donec vel blandit augue. Praesent vel facilisis erat. Praesent dignissim finibus odio malesuada iaculis. Sed
+                     sodales, eros eu placerat pulvinar, mi quam commodo nunc, in pharetra urna urna non diam. Quisque mollis porttitor vulputate.
+                  </label>
+               </div>
+      
+               <button type="submit">Send</button>
+            </form>
+      
+         </div>
+      
+         <div class="footer_mobile_logo">
+            Lunaria
+      
+         </div>
+      
+         <div class="footer-socials">
+            <a href="#">
+               <svg width="25" height="45" class="icon">
+                  <use href="img/sprite.svg#blue-icon_facebook"></use>
+               </svg>
+            </a>
+      
+            <a href="#">
+               <svg width="46" height="45" class="icon">
+                  <use href="img/sprite.svg#blue-icon_inst"></use>
+               </svg>
+            </a>
+      
+            <a href="#">
+               <svg width="45" height="45" class="icon">
+                  <use href="img/sprite.svg#blue-icon_linkedin"></use>
+               </svg>
+            </a>
+         </div>
+      
+         <p class="footer-copy">
+            All graphic materials and content posted on the Lunaria.com website
+            are protected by Copyright. Copying, duplicating and distributing without
+            permission is prohibited.
+         </p>
+      </footer>
+
+
+      <script src="js/script.js"></script>
+   </body>
+   </html>

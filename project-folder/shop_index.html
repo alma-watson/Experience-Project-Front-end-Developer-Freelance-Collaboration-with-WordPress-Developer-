@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="robots" content="noindex, nofollow">
+      <meta name="description"
+         content="Page layout built from a Figma design. Responsive, clean, with modal and JS interaction.">
+         <meta name="author" content="Alma Watson"> 
+      <meta property="og:title" content="Folder Project – responsive landing page">
+      <meta property="og:description"
+         content="HTML/CSS/JS landing page based on Figma. Includes modal popup and adaptive layout.">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://folder-project.netlify.app/">
+      
+      <title>Folder Project – responsive page</title>
+   
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:opsz,wght@14..32,100..900&display=swap"
+         rel="stylesheet">
+      <!-- style -->
+      <link rel="stylesheet" href="css/styles.css">
+   
+      </head>
+<body>
+   <header class="header">
+      <div class="header-top">
+         <div class="header_left">
+            <button class="btn_menu" aria-label="Open menu">
+   
+               <svg width="32" height="24" class="icon">
+                  <use href="img/sprite.svg#burger_icon"></use>
+               </svg>
+            </button>
+   
+         </div>
+   
+         <div class="menu_container">
+            <button class="close_menu" aria-label="Close menu">
+               <svg width="26" height="26" class="icon">
+                  <use href="img/sprite.svg#close_menu"></use>
+               </svg>
+   
+            </button>
+   
+            <nav class="main_nav">
+               <ul class="main_nav_list">
+   
+                  <li class="main_nav_item">
+                     <a href="index.html" class="main_nav_link">Home</a>
+                  </li>
+                  <!-- <li class="main_nav_item">
+                        <a href="#" class="main_nav_link">Lunaria</a>
+                     </li> -->
+   
+                  <!-- <li class="main_nav_item">
+                        <a href="#" class="main_nav_link">Detail</a>
+                     </li> -->
+   
+                  <li class="main_nav_item">
+                     <a href="architecture.html" class="main_nav_link">Architecture</a>
+                  </li>
+   
+                  <!-- <li class="main_nav_item">
+                        <a href="#" class="main_nav_link">Light</a>
+                     </li> -->
+   
+                  <li class="main_nav_item">
+                     <a href="shop_index.html" class="main_nav_link">Shop</a>
+                  </li>
+   
+                  <!-- <li class="main_nav_item">
+                        <a href="#" class="main_nav_link">Inspirations</a>
+                     </li> -->
+   
+                  <li class="main_nav_item">
+                     <a href="events.html" class="main_nav_link">Events</a>
+                  </li>
+   
+                  <!-- <li class="main_nav_item">
+                        <a href="#" class="main_nav_link">Future</a>
+                     </li> -->
+               </ul>
+            </nav>
+   
+            <div class="social-links">
+               <a href="#">
+                  <svg width="26" height="46" class="icon">
+                     <use href="img/sprite.svg#icon_facebok"></use>
+                  </svg>
+               </a>
+   
+               <a href="#">
+                  <svg width="46" height="46" class="icon">
+                     <use href="img/sprite.svg#icon_inst"></use>
+                  </svg>
+               </a>
+   
+               <a href="#">
+                  <svg width="46" height="46" class="icon">
+                     <use href="img/sprite.svg#icon_linkedin"></use>
+                  </svg>
+               </a>
+            </div>
+   
+         </div>
+   
+   
+   
+         <div class="search_container">
+            <button class="search_toggle" aria-label="Open search">
+               <svg width="20" height="20" class="icon">
+                  <use href="img/sprite.svg#search_toggle"></use>
+               </svg>
+            </button>
+            <form class="search_form" action="/search" method="GET">
+               <input type="text" name="query" placeholder="szukaj">
+            </form>
+   
+   
+         </div>
+      </div>
+   
+   
+      <div class="header_logo">
+         <a href="index.html">
+            Lunaria
+         </a>
+         <p>lorem Ipsum dolor sit amet</p>
+      </div>
+   
+   </header>
+
+   <main>
+      <section class="page-header">
+      
+         <div class="page-header_decor"></div>
+         <nav class="breadcrumb" aria-label="Breadcrumb">
+            <!-- breadcrumb  -->
+         </nav>
+         <h1 class="page-title">Shop</h1>
+      </section>
+
+         <section class="banner-menu">
+         
+            <div class="banner-grid">
+         
+               <a href="single_product.html" class="banner_item">
+                  <figure class="product_foto">
+                     <img src="img/shop/anna-y2GYPpGVzhc-unsplash.avif" width="400" height="400" alt="">
+         
+                     <figcaption class="product_name">Acantus - alabaster</figcaption>
+                  </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure class="product_foto">
+                     <img src="img/shop/bryony-elena-iJBGra9s66o-unsplash.avif" width="400" height="400" alt="">
+         
+                     <figcaption class="product_name">Acantus - casmire</figcaption>
+                  </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/adrian-bahrami-GGz4uzUZ0G0-unsplash.avif" width="400" height="400" alt="">
+         
+                     <figcaption class="product_name">Architecture</figcaption>
+                  </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/grant-ritchie-pJ1JxTbWyaA-unsplash.avif" width="400" height="400" alt="">
+         
+                     <figcaption class="product_name">Acantus - light</figcaption>
+                  </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/khloe-arledge-qOC9E7E71jE-unsplash.avif" width="400" height="400" alt="">
+         
+                     <figcaption class="product_name">Sculpture 01</figcaption>
+                  </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/kriti-sharma-0EOLL8EMojg-unsplash.avif" width="400" height="400" alt="">
+         
+                     <figcaption class="product_name">Sculpture 02</figcaption>
+                  </figure>
+               </a>
+         
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/monkwork-3RTFtaXo0qc-unsplash.avif" width="400" height="400" alt="">
+               
+                     <figcaption class="product_name">Acantus - light</figcaption>
+                  </figure>
+               </a>
+               
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/monty-allen-NhgvBxbVGN4-unsplash.avif" width="400" height="400" alt="">
+               
+                     <figcaption class="product_name">Name 01</figcaption>
+                  </figure>
+               </a>
+               
+               <a href="#" class="banner_item">
+                  <figure>
+                     <img src="img/shop/taylor-ZYysOcLk0j0-unsplash.avif" width="400" height="400" alt="">
+               
+                     <figcaption class="product_name">Name 02</figcaption>
+                  </figure>
+               </a>
+         
+            </div>
+         
+            </section>
+   </main>
+
+   <footer class="footer">
+      <div class="footer-contact">
+         <h2>Contact</h2>
+   
+         <form class="contact-form" action="#" method="POST">
+            <div class="box">
+               <div class="form-row">
+                  <div class="form-group name">
+                     <label for="name">Name and surname</label>
+                     <input type="text" id="name" name="name" placeholder="your name and surname" required>
+                  </div>
+   
+                  <div class="form-group email">
+                     <label for="email">email</label>
+                     <input type="email" id="email" name="email" placeholder="your email adress" required>
+                  </div>
+               </div>
+   
+               <div class="message">
+                  <label for="message">Message content</label>
+                  <textarea id="message" name="message" rows="5" placeholder="enter content" required></textarea>
+               </div>
+            </div>
+   
+            <div class=" checkbox-group">
+               <input type="checkbox" id="consent" name="consent" required>
+               <label for="consent">
+                  I agree to the processing of my personal data by <a href="#"></a> for marketing purposes.
+                  Providing data is voluntary. The basis for data processing is my consent. I have the right to withdraw
+                  consent
+                  at any time. Personal data will be processed until the consent is withdrawn, and after such withdrawal,
+                  for
+                  the limitation period of claims to which the data controller is entitled and against him. I have the
+                  right to
+                  request from the controller access to my personal data, its rectification, deletion or restriction of
+                  processing,
+                  as well as the right to lodge a complaint with the supervisory authority.
+               </label>
+            </div>
+   
+            <button type="submit">Send</button>
+         </form>
+   
+      </div>
+   
+      <div class="footer_mobile_logo">
+         Lunaria
+   
+      </div>
+   
+      <div class="footer-socials">
+         <a href="#">
+            <svg width="25" height="45" class="icon">
+               <use href="img/sprite.svg#blue-icon_facebook"></use>
+            </svg>
+         </a>
+   
+         <a href="#">
+            <svg width="46" height="45" class="icon">
+               <use href="img/sprite.svg#blue-icon_inst"></use>
+            </svg>
+         </a>
+   
+         <a href="#">
+            <svg width="45" height="45" class="icon">
+               <use href="img/sprite.svg#blue-icon_linkedin"></use>
+            </svg>
+         </a>
+      </div>
+   
+      <p class="footer-copy">
+         All graphic materials and content posted on the Lunaria.com website
+         are protected by Copyright. Copying, duplicating and distributing without
+         permission is prohibited.
+      </p>
+   </footer>
+   <script src="js/script.js"></script>
+</body>
+</html>
